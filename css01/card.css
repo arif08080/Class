@@ -1,0 +1,38 @@
+
+body {
+  background-color: #f4f4f9;
+  display:center;
+  align-items: center;
+}
+
+.card {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.card-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+
+}
+

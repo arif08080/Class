@@ -1,0 +1,13 @@
+.grid-repeat{
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns:  minmax(200px, 1000px);
+    gap: 10px;
+}
+
+.grid-repeat-child{
+    border: 2px solid black;
+    height: 100px;
+   
+}
+

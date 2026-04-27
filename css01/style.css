@@ -1,0 +1,39 @@
+h2{
+    color: green;
+}
+
+.htmlA{
+    color: red;
+    font-size: 30px;
+}
+.htmlB{
+    color: blue;
+    font-size: 20px;
+}
+.htmlC{
+    color: yellow;
+    font-size: 15px;
+}
+
+#htmlC{
+    color: rgb(255, 192, 203);
+    font-size: 15    px;
+}
+h2{
+   border: 2px solid black;
+}
+h1{
+text-align: center;
+}
+
+.price{
+    text-decoration: line-through;
+}
+.p{
+    text-decoration:overline ;
+}
+
+a{
+    text-decoration: none;
+    
+}

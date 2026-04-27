@@ -1,0 +1,45 @@
+:root{
+    --mainHead: white;
+    --mainHeadBackground:lightblue;
+    --fontSize: 20px;
+    --timing:3s;
+}
+
+h1{
+    color: var(--mainHead);
+    background-color: var(--mainHeadBackground);
+    animation-duration: var(  --timing);
+}
+
+h2{
+    color: var(--mainHead);
+    background-color: var(--mainHeadBackground);
+    animation-duration: var(  --timing);
+}
+
+p{
+    color:aqua;
+}
+
+
+
+p::first-line{
+
+    color: blue;
+}
+
+
+p::first-letter{
+
+    color: red; 
+}
+
+p::before{
+    content: "😂";
+    
+}
+
+p::after{
+    content: "❤️";
+    
+}

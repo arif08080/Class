@@ -1,0 +1,39 @@
+/*  your css code here. If applicable */
+h3,p,ul{
+         text-align: center;
+}
+td h3 {
+    margin-top: 0;
+}
+td img {
+    width: 100%;
+    height: auto;
+}
+td {
+    border: 1px solid #7a7a7a;
+    padding: 15px;
+    vertical-align: top;
+    text-align: left;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.imageContainer img {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+.main-wrapper {
+    width: 1100px;
+    background-color: #d1d8cc; 
+    padding: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+}

@@ -1,0 +1,59 @@
+
+
+
+  .grand-parent{
+        display: flex;
+        justify-content: center;
+  }
+
+  .parent{
+   display: flex;
+   flex-direction: row;
+   width: 80%;
+   flex-wrap: wrap;
+   gap: 50px;
+   justify-content: center;
+   border: 2px solid black;
+   background-color: pink;
+
+  }
+  
+  .child{
+    width: 250px;
+    height: 350px;
+    border: 2px solid black;
+  }
+
+
+  .linear-Gradient{
+    width: 100%;
+    height: 100px;
+    /* background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+     background: linear-gradient(15deg, red, orange, yellow, green, blue, indigo, violet); */
+      /* background: radial-gradient( red, orange, yellow, green, blue, indigo, violet); */
+       background: conic-gradient( red, orange, yellow, green, blue, indigo, violet);
+  }
+
+  /* desktop or laptop */
+
+.main-heading{
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    background-color: black;
+}
+/* phone */
+@media screen and (min-width: 250px) and (max-width: 500px){
+                 .main-heading{
+                    background-color: lightgreen;
+}
+  }
+
+
+
+/* ipad */
+@media screen and (min-width: 500px) and (max-width: 1024px){
+                 .main-heading{
+                    background-color:lightcoral;
+}
+  }
